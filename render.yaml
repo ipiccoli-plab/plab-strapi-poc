@@ -11,6 +11,8 @@ services:
         value: "22"
       - key: NODE_ENV
         value: production
+      - key: DATABASE_FILENAME
+        value: database/data.db
       - key: APP_KEYS
         generateValue: true
       - key: API_TOKEN_SALT
